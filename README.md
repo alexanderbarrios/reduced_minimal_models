@@ -14,7 +14,7 @@ This code was written on SageMath, and the repository consists of  files:
 
 (5) Cremonadatabase.ipynb
 
-File (1) contains the definitions that are called by (2),(3), (4), and (5).
+File (1) contains the definitions that are called by (2),(3), and (4).
 
 File (2) verifies statements made in Section 3.
 

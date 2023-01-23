@@ -470,7 +470,7 @@ def set2(gam,n):
 # In particular, the code provides a set of parameters for which E22 is non-singular and the parameters satisfy the conclusion of Proposition 2.2.
 def set22(gam,n):
 	T=[]
-	for a in (-2*n..2*n):
+	for a in (-n..n):
 		for b in (-n..n):
 			for d in (1..n):
 				if gcd(a,b) == 1 and is_squarefree(d) and gam(a,b,d) != 0 and is_even(a):

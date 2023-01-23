@@ -492,7 +492,7 @@ def set4(gam,n):
 
 #Let gam denote the discriminant of ET for T != C2,C22,,C3^0,C4. The definition below contructs the set {(a,b)| a in (1..n), b in (-n..n) such that gcd(a,b)=1 and gam(a,b) != 0}.
 # In particular, the code provides a set of parameters for which ET is non-singular and the parameters satisfy the conclusion of Proposition 2.2.
-def set(gam,n):
+def set1(gam,n):
 	T=[]
 	for a in (1..n):
 		for b in (-n..n):
